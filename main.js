@@ -2,7 +2,7 @@ import { OpenAI } from 'openai';
 
 const openai = new OpenAI({
   apiKey: 'not-needed', // Rate limit is 10 RPM
-  baseURL: 'https://v1.vasarai.net/v1',
+  baseURL: '',
 });
 
 async function main() {
